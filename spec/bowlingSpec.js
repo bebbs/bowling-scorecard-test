@@ -23,4 +23,12 @@ describe("Scorecard", function() {
 
   });
 
+  describe("A game has", function() {
+
+    it("10 frames", function() {
+      expect(scorecard.gameFrames).toEqual(10);
+    });
+
+  });
+
 });
